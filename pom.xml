@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>circle-ci-test1</artifactId>
+    <artifactId>test-circleCI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>circle-ci-test1</name>
     <description>circle-ci-test1</description>
@@ -29,6 +29,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>

@@ -12,14 +12,14 @@ public class Randomizer {
 	@Autowired
 	private RandomNumberGenerator randomNumberGenerator;
 
-	public List<Integer> randomize(int numberOfElems, int maxNumber) {
+	public List<Integer> randomize(int numberOfElems, int maxValue) {
 		List<Integer> listOfGeneratedVals = new ArrayList<>();
-		if (numberOfElems == maxNumber) {
+		if (numberOfElems == maxValue) {
 			throw new IllegalArgumentException("numbers shouldn't be equal");
 		}
 
-		while (listOfGeneratedVals.size() < numberOfElems) {
-			var val = randomNumberGenerator.generateIntValue(maxNumber);
+		while (!(listOfGeneratedVals.size() == numberOfElems)) {
+			var val = randomNumberGenerator.generateIntValue(maxValue);
 			if (!listOfGeneratedVals.contains(val)) {
 				listOfGeneratedVals.add(val);
 			}
