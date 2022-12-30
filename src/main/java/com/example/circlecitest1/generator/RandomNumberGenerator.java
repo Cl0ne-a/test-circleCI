@@ -1,7 +1,6 @@
 package com.example.circlecitest1.generator;
 
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
