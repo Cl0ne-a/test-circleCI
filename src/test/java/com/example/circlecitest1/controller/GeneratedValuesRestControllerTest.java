@@ -2,9 +2,7 @@ package com.example.circlecitest1.controller;
 
 import com.example.circlecitest1.generator.RandomNumberGenerator;
 import com.example.circlecitest1.service.Randomizer;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
